@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    font-family: 'Open Sans',sans-serif;
+    background: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    background: grey;
+}
+@media screen and (max-width:850px){
+    #container{
+        display: block;
+    } #profile{
+        width: 90%;
+    }
+    .card{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+}

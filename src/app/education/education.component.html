@@ -1,0 +1,13 @@
+
+<div class="card">
+    <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Education</p>
+    <ul>
+        <li *ngFor="let item of education">
+            <div>{{item.school}}</div>
+            <div>{{item.program}}</div>
+            <div>{{item.percentage}}</div>
+            <div>{{item.from}}-{{item.to}}</div>
+        </li>
+    </ul>
+    <a href="#">+ Add new</a>
+</div>
